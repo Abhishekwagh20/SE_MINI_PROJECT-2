@@ -499,20 +499,6 @@ void graph1::display()
 
 }
 
-/*void graph1::display()
-{
-		cout<<"\n THE ADJACENCY MATRIX IS:\n";
-		 for(int i=0;i<6;i++)
-		{
-                    	cout<< "\t\t" << city[i];
-		}
-                  for(int i=0;i<6;i++)
-		  {
-				cout << "\n"<< city[i]<<"\t";
-		            	for (int j=0;j<6; j++)
-		                	cout << "\t\t"<< A[i][j];
-		  }
-}*/
 void graph1::exist()
 {
 	for(int i=0;i<6;i++)
